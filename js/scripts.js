@@ -8,7 +8,7 @@ var numCheck = function(userInput) { // Checks whether the user enters a number,
   }
 };
 
-var returnNumbers = function(userInput) { // Adds each number up to what the user entered into an array, and shows output section
+var returnNumbers = function(userInput) { // Adds each number up to and including what the user entered into an array, and shows output section
   for (var i = 0; i < userInput; i++) {
     numbersArray.push([i + 1]);
     $("#answer_section").show();
@@ -26,7 +26,7 @@ $(function() {
     numCheck(userInput);
     returnNumbers(userInput);
 
-    numbersArray.forEach(function(number) { // Appends each number in the array as individual list items
+    numbersArray.forEach(function(number) { // Runs through numbersArray to determine which return special strings
       if (number % 15 === 0) { // If number is divisible by fifteen, return "ping-pong"
         number = "ping-pong"
       } else if (number % 3 === 0) { // If number is divisible by three, return "ping"
@@ -36,11 +36,8 @@ $(function() {
       }
 
       $("ul").append("<li>" + number + "</li>");
-      $("#answer").text(userInput);
     });
-  });
 
-  $("#reset_button").click(function() { // Refreshes page when the user clicks the reset button
-    location.reload();
+    $("#answer").text(userInput);
   });
 });

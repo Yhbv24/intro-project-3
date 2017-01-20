@@ -9,6 +9,8 @@ body {
   font-size: 6em;
   color: #f3d16f;
   height: 300px;
+  margin-top: 0;
+  padding-left: 50px;
 }
 
 #answer_section {
