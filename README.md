@@ -5,7 +5,7 @@
 
 ## About the Project
 
-This project will return the number you enter. If the number is divisible by 3, it will return "ping". If it's divisible by 5, it will return "pong". If it's divisible by 15, it will return "ping-pong".
+This project will return all numbers from 1 to the number you enter. If the number is divisible by 3, it will return "ping". If it's divisible by 5, it will return "pong". If it's divisible by 15, it will return "ping-pong".
 
 ## Get Started
 
@@ -24,17 +24,21 @@ To get started, please either:
    * Input: Nothing
    * Expected output: Please enter a number.
 
-3. Return error message if user enters a string.
-   * Input: hello
-   * Expected output: Please enter a number.
+3. Return all numbers from 1 to the number the user enters.
+   * Input: 4
+   * Expected output: 1, 2, 3, 4
 
-4. Return same number as the user enters.
+4. Return "ping" for numbers divisible by 3.
+   * Input: 6
+   * Expected output: 1, 2, ping, 4, 5, 6
+
+5. Include step 5, and also return "pong" for numbers divisible by 5.
    * Input: 15
-   * Expected output: 15
+   * Expected output: 1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, 15
 
-5. Return "ping" if input is divisible by 15.
+6. Include steps 5 and 6, and also return "ping-pong" for numbers that are divisible by 15.
    * Input: 30
-   * Expected output: ping
+   * Expected output: 1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, ping-pong, 16, 17, ping, 19, pong, ping, 22, 23, ping, pong, 26, ping, 28, 29, 30
 
 ## Licensing
 
