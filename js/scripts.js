@@ -34,6 +34,8 @@ $(function() {
   $("#number_input").submit(function(event) {
     event.preventDefault();
 
+    $("ul").empty();
+
     var userInput = parseInt($("#user_input").val());
 
     numCheck(userInput);

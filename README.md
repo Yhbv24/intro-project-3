@@ -38,9 +38,13 @@ To get started, please either:
    * Input: 30
    * Expected output: 1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, ping-pong, 16, 17, ping, 19, pong, ping, 22, 23, ping, pong, 26, ping, 28, 29, ping-pong
 
+7. Upon form submit, refresh unordered list so it shows only the new output
+   * Input: 2
+   * Expected output: Only show 1 and 2, not output from the previous search
+
 ## Known Issues
 
-* Submitting without first resetting/refreshing page does not automatically empty the unordered list and output the new information; rather, it adds it to the previous output
+* No bugs or issues that I have found
 
 ## Licensing
 
