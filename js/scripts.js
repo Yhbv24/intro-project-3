@@ -27,6 +27,10 @@ $(function() {
     returnNumbers(userInput);
 
     numbersArray.forEach(function(number) { // Appends each number in the array as individual list items
+      if (number % 3 === 0) { // If number is divisible by three, return "ping"
+        number = "ping"
+      }
+
       $("ul").append("<li>" + number + "</li>");
     });
   });
