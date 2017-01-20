@@ -1,5 +1,6 @@
 body {
   font-family: 'Jura', sans-serif;
+  background-color: #f4c203;
 }
 
 .jumbotron {
@@ -7,10 +8,11 @@ body {
   background-size: cover;
   font-family: 'Audiowide', cursive;
   font-size: 6em;
-  color: #f3d16f;
+  color: #f4c203;
   height: 300px;
   margin-top: 0;
   padding-left: 50px;
+  border-bottom: 4px solid black;
 }
 
 #answer_section {
