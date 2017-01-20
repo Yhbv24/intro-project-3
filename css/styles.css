@@ -3,10 +3,18 @@ body {
 }
 
 .jumbotron {
+  background-image: url(../img/ping-pong.jpg);
+  background-size: cover;
   font-family: 'Audiowide', cursive;
   font-size: 6em;
+  color: #CCCC00;
+  height: 300px;
 }
 
 #answer_section {
   display: none;
+}
+
+h4 {
+  line-height: 1.3em;
 }
