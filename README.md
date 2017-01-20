@@ -40,10 +40,6 @@ To get started, please either:
    * Input: 30
    * Expected output: 1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, ping-pong, 16, 17, ping, 19, pong, ping, 22, 23, ping, pong, 26, ping, 28, 29, ping-pong
 
-7. Return last number in the list as-is, even if it's divisible by 3, 5, or 15
-   * Input: 5
-   * Expected output: 1, 2, ping, 4, pong
-
 ## Licensing
 
 This is an MIT-licensed project.

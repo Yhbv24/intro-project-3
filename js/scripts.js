@@ -29,9 +29,12 @@ $(function() {
     numbersArray.forEach(function(number) { // Appends each number in the array as individual list items
       if (number % 3 === 0) { // If number is divisible by three, return "ping"
         number = "ping"
+      } else if (number % 5 === 0) { // If number is divisible by five, return "pong"
+        number = "pong"
       }
 
       $("ul").append("<li>" + number + "</li>");
+      $("#answer").text(userInput);
     });
   });
 
