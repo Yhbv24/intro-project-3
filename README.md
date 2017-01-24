@@ -23,16 +23,16 @@ To get started, please either:
    * Expected output: Please enter a valid number in the field.
 
 3. Return all numbers from 1 to the number the user enters.
-   * Input: 4
-   * Expected output: 1, 2, 3, 4
+   * Input: 2
+   * Expected output: 1, 2
 
 4. Return "ping" for numbers divisible by 3.
    * Input: 6
    * Expected output: 1, 2, ping, 4, 5, ping
 
 5. Include step 4, and also return "pong" for numbers divisible by 5.
-   * Input: 15
-   * Expected output: 1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14, ping
+   * Input: 14
+   * Expected output: 1, 2, ping, 4, pong, ping, 7, 8, ping, pong, 11, ping, 13, 14
 
 6. Include steps 4 and 5, and also return "ping-pong" for numbers that are divisible by 15.
    * Input: 30
@@ -44,7 +44,13 @@ To get started, please either:
 
 ## Known Issues
 
-* No bugs or issues that I have found
+No bugs or issues that I have found
+
+## Updates
+
+23 January, 2017
+   * Made variable names easier to understand
+   * Updated README so that all expected inputs/outputs are accurate
 
 ## Licensing
 
